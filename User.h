@@ -1,4 +1,3 @@
-// User.h
 #ifndef USER_H
 #define USER_H
 
@@ -18,14 +17,12 @@ public:
     User(std::string, std::string, std::string, std::string, std::string);
     ~User();
 
-    // Getters
     std::string getFirstName() const;
     std::string getSurname() const;
     std::string getMidname() const;
     std::string getAddress() const;
     std::string getPhone() const;
 
-    // Setters
     void setFirstName(std::string);
     void setSurname(std::string);
     void setMidname(std::string);
@@ -33,4 +30,4 @@ public:
     void setPhone(std::string);
 };
 
-#endif // USER_H
+#endif 

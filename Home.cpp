@@ -1,4 +1,3 @@
-// Home.cpp
 #include "Home.h"
 
 void Home::show() {
@@ -11,7 +10,6 @@ void Home::show() {
 
     PackageDTO<std::string>* packageDTO = new PackageDTO<std::string>(userFrom, userTo, package, courier);
 
-    // Display information from the DTO
     std::cout << "From: " << packageDTO->getFromUser()->getFirstName() << std::endl;
     std::cout << "To: " << packageDTO->getToUser()->getFirstName() << std::endl;
     std::cout << "Courier: " << packageDTO->getCourier()->getName() << std::endl;

@@ -1,4 +1,3 @@
-// Home.h
 #ifndef HOME_H
 #define HOME_H
 
@@ -10,4 +9,4 @@ struct Home {
     static void show();
 };
 
-#endif // HOME_H
+#endif 

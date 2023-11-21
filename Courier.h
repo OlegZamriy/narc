@@ -1,4 +1,3 @@
-// Courier.h
 #ifndef COURIER_H
 #define COURIER_H
 
@@ -15,13 +14,11 @@ public:
     Courier(std::string, std::string);
     ~Courier();
 
-    // Getters
     std::string getName() const;
     std::string getVehicle() const;
 
-    // Setters
     void setName(std::string);
     void setVehicle(std::string);
 };
 
-#endif // COURIER_H
+#endif 
